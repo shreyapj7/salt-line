@@ -9,27 +9,11 @@
   },
   "metadata": {
     "layer_name": "NDMI (vegetation moisture indicator)",
-    "sensor": "Sentinel-2B MSI Level-2A",
-    "tile": "T43PBT",
-    "acquisition_date": "2026-03-12",
+    "source_type": "simulated_demo",
+    "data_status": "simulated_demo",
     "formula": "(B08 - B11) / (B08 + B11)",
-    "bands": {
-      "NIR": "Band 8 (842 nm, 10m native)",
-      "SWIR1": "Band 11 (1610 nm, 20m native resampled to 10m/20m)"
-    },
-    "cloud_cover_scene_pct": 1.2,
-    "cloud_masked_gaps": "0% over pilot corridor",
-    "cells_count": 130,
-    "bounds": [
-      [
-        13.11,
-        74.69
-      ],
-      [
-        13.48,
-        74.82
-      ]
-    ]
+    "provenance_note": "Values are mathematically simulated following coastal geomorphological profiles for frontend/dashboard development. Live GEE GeoTIFF download was not executed locally due to lack of local GEE cloud credentials.",
+    "cells_count": 130
   },
   "features": [
     {
@@ -37,15 +21,17 @@
       "properties": {
         "grid_id": "ndmi_cell_001",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.24,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -80,15 +66,17 @@
       "properties": {
         "grid_id": "ndmi_cell_002",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.243,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -123,15 +111,17 @@
       "properties": {
         "grid_id": "ndmi_cell_003",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.315,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -166,15 +156,17 @@
       "properties": {
         "grid_id": "ndmi_cell_004",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.255,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -209,15 +201,17 @@
       "properties": {
         "grid_id": "ndmi_cell_005",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.205,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -252,15 +246,17 @@
       "properties": {
         "grid_id": "ndmi_cell_006",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.289,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -295,15 +291,17 @@
       "properties": {
         "grid_id": "ndmi_cell_007",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.235,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -338,15 +336,17 @@
       "properties": {
         "grid_id": "ndmi_cell_008",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.278,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -381,15 +381,17 @@
       "properties": {
         "grid_id": "ndmi_cell_009",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.318,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -424,15 +426,17 @@
       "properties": {
         "grid_id": "ndmi_cell_010",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.218,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -467,15 +471,17 @@
       "properties": {
         "grid_id": "ndmi_cell_011",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.237,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -510,15 +516,17 @@
       "properties": {
         "grid_id": "ndmi_cell_012",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.298,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -553,15 +561,17 @@
       "properties": {
         "grid_id": "ndmi_cell_013",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.238,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -596,15 +606,17 @@
       "properties": {
         "grid_id": "ndmi_cell_014",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.312,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -639,15 +651,17 @@
       "properties": {
         "grid_id": "ndmi_cell_015",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.275,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -682,15 +696,17 @@
       "properties": {
         "grid_id": "ndmi_cell_016",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.216,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -725,15 +741,17 @@
       "properties": {
         "grid_id": "ndmi_cell_017",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.272,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -768,15 +786,17 @@
       "properties": {
         "grid_id": "ndmi_cell_018",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.298,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -811,15 +831,17 @@
       "properties": {
         "grid_id": "ndmi_cell_019",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.252,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -854,15 +876,17 @@
       "properties": {
         "grid_id": "ndmi_cell_020",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.198,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -897,15 +921,17 @@
       "properties": {
         "grid_id": "ndmi_cell_021",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.231,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -940,15 +966,17 @@
       "properties": {
         "grid_id": "ndmi_cell_022",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.28,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -983,15 +1011,17 @@
       "properties": {
         "grid_id": "ndmi_cell_023",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.223,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1026,15 +1056,17 @@
       "properties": {
         "grid_id": "ndmi_cell_024",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.304,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1069,15 +1101,17 @@
       "properties": {
         "grid_id": "ndmi_cell_025",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.259,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1112,15 +1146,17 @@
       "properties": {
         "grid_id": "ndmi_cell_026",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.199,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1155,15 +1191,17 @@
       "properties": {
         "grid_id": "ndmi_cell_027",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.265,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1198,15 +1236,17 @@
       "properties": {
         "grid_id": "ndmi_cell_028",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.277,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1241,15 +1281,17 @@
       "properties": {
         "grid_id": "ndmi_cell_029",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.241,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1284,15 +1326,17 @@
       "properties": {
         "grid_id": "ndmi_cell_030",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.178,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1327,15 +1371,17 @@
       "properties": {
         "grid_id": "ndmi_cell_031",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.225,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1370,15 +1416,17 @@
       "properties": {
         "grid_id": "ndmi_cell_032",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.261,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1413,15 +1461,17 @@
       "properties": {
         "grid_id": "ndmi_cell_033",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.21,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1456,15 +1506,17 @@
       "properties": {
         "grid_id": "ndmi_cell_034",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.295,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1499,15 +1551,17 @@
       "properties": {
         "grid_id": "ndmi_cell_035",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.242,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1542,15 +1596,17 @@
       "properties": {
         "grid_id": "ndmi_cell_036",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.182,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1585,15 +1641,17 @@
       "properties": {
         "grid_id": "ndmi_cell_037",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.258,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1628,15 +1686,17 @@
       "properties": {
         "grid_id": "ndmi_cell_038",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.255,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1671,15 +1731,17 @@
       "properties": {
         "grid_id": "ndmi_cell_039",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.231,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1714,15 +1776,17 @@
       "properties": {
         "grid_id": "ndmi_cell_040",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.358,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1757,15 +1821,17 @@
       "properties": {
         "grid_id": "ndmi_cell_041",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.38,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1800,15 +1866,17 @@
       "properties": {
         "grid_id": "ndmi_cell_042",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.337,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1843,15 +1911,17 @@
       "properties": {
         "grid_id": "ndmi_cell_043",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.426,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1886,15 +1956,17 @@
       "properties": {
         "grid_id": "ndmi_cell_044",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.388,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1929,15 +2001,17 @@
       "properties": {
         "grid_id": "ndmi_cell_045",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.239,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -1972,15 +2046,17 @@
       "properties": {
         "grid_id": "ndmi_cell_046",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.308,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2015,15 +2091,17 @@
       "properties": {
         "grid_id": "ndmi_cell_047",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.39,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2058,15 +2136,17 @@
       "properties": {
         "grid_id": "ndmi_cell_048",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.374,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2101,15 +2181,17 @@
       "properties": {
         "grid_id": "ndmi_cell_049",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.363,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2144,15 +2226,17 @@
       "properties": {
         "grid_id": "ndmi_cell_050",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.443,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2187,15 +2271,17 @@
       "properties": {
         "grid_id": "ndmi_cell_051",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.052,
         "moisture_class": "Low Moisture / Sandy Fringe",
         "fill_color": "#fed98e",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2230,15 +2316,17 @@
       "properties": {
         "grid_id": "ndmi_cell_052",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.219,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2273,15 +2361,17 @@
       "properties": {
         "grid_id": "ndmi_cell_053",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.187,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2316,15 +2406,17 @@
       "properties": {
         "grid_id": "ndmi_cell_054",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.274,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2359,15 +2451,17 @@
       "properties": {
         "grid_id": "ndmi_cell_055",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.227,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2402,15 +2496,17 @@
       "properties": {
         "grid_id": "ndmi_cell_056",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": -0.038,
         "moisture_class": "Low Moisture / Sandy Fringe",
         "fill_color": "#fed98e",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2445,15 +2541,17 @@
       "properties": {
         "grid_id": "ndmi_cell_057",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.241,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2488,15 +2586,17 @@
       "properties": {
         "grid_id": "ndmi_cell_058",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.212,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2531,15 +2631,17 @@
       "properties": {
         "grid_id": "ndmi_cell_059",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.216,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2574,15 +2676,17 @@
       "properties": {
         "grid_id": "ndmi_cell_060",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.287,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2617,15 +2721,17 @@
       "properties": {
         "grid_id": "ndmi_cell_061",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.134,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2660,15 +2766,17 @@
       "properties": {
         "grid_id": "ndmi_cell_062",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.318,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2703,15 +2811,17 @@
       "properties": {
         "grid_id": "ndmi_cell_063",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.402,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2746,15 +2856,17 @@
       "properties": {
         "grid_id": "ndmi_cell_064",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.347,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2789,15 +2901,17 @@
       "properties": {
         "grid_id": "ndmi_cell_065",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.39,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2832,15 +2946,17 @@
       "properties": {
         "grid_id": "ndmi_cell_066",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.108,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2875,15 +2991,17 @@
       "properties": {
         "grid_id": "ndmi_cell_067",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.183,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2918,15 +3036,17 @@
       "properties": {
         "grid_id": "ndmi_cell_068",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.331,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -2961,15 +3081,17 @@
       "properties": {
         "grid_id": "ndmi_cell_069",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.349,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3004,15 +3126,17 @@
       "properties": {
         "grid_id": "ndmi_cell_070",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.411,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3047,15 +3171,17 @@
       "properties": {
         "grid_id": "ndmi_cell_071",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.351,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3090,15 +3216,17 @@
       "properties": {
         "grid_id": "ndmi_cell_072",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.175,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3133,15 +3261,17 @@
       "properties": {
         "grid_id": "ndmi_cell_073",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.155,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3176,15 +3306,17 @@
       "properties": {
         "grid_id": "ndmi_cell_074",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.387,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3219,15 +3351,17 @@
       "properties": {
         "grid_id": "ndmi_cell_075",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.329,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3262,15 +3396,17 @@
       "properties": {
         "grid_id": "ndmi_cell_076",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.384,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3305,15 +3441,17 @@
       "properties": {
         "grid_id": "ndmi_cell_077",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.41,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3348,15 +3486,17 @@
       "properties": {
         "grid_id": "ndmi_cell_078",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.113,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3391,15 +3531,17 @@
       "properties": {
         "grid_id": "ndmi_cell_079",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.05,
         "moisture_class": "Low Moisture / Sandy Fringe",
         "fill_color": "#fed98e",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3434,15 +3576,17 @@
       "properties": {
         "grid_id": "ndmi_cell_080",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.203,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3477,15 +3621,17 @@
       "properties": {
         "grid_id": "ndmi_cell_081",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.252,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3520,15 +3666,17 @@
       "properties": {
         "grid_id": "ndmi_cell_082",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.195,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3563,15 +3711,17 @@
       "properties": {
         "grid_id": "ndmi_cell_083",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.276,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3606,15 +3756,17 @@
       "properties": {
         "grid_id": "ndmi_cell_084",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.072,
         "moisture_class": "Low Moisture / Sandy Fringe",
         "fill_color": "#fed98e",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3649,15 +3801,17 @@
       "properties": {
         "grid_id": "ndmi_cell_085",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.127,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3692,15 +3846,17 @@
       "properties": {
         "grid_id": "ndmi_cell_086",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.171,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3735,15 +3891,17 @@
       "properties": {
         "grid_id": "ndmi_cell_087",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.237,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3778,15 +3936,17 @@
       "properties": {
         "grid_id": "ndmi_cell_088",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.249,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3821,15 +3981,17 @@
       "properties": {
         "grid_id": "ndmi_cell_089",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.213,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3864,15 +4026,17 @@
       "properties": {
         "grid_id": "ndmi_cell_090",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.19,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3907,15 +4071,17 @@
       "properties": {
         "grid_id": "ndmi_cell_091",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.222,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3950,15 +4116,17 @@
       "properties": {
         "grid_id": "ndmi_cell_092",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.373,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -3993,15 +4161,17 @@
       "properties": {
         "grid_id": "ndmi_cell_093",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.322,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4036,15 +4206,17 @@
       "properties": {
         "grid_id": "ndmi_cell_094",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.408,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4079,15 +4251,17 @@
       "properties": {
         "grid_id": "ndmi_cell_095",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.382,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4122,15 +4296,17 @@
       "properties": {
         "grid_id": "ndmi_cell_096",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.222,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4165,15 +4341,17 @@
       "properties": {
         "grid_id": "ndmi_cell_097",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.149,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4208,15 +4386,17 @@
       "properties": {
         "grid_id": "ndmi_cell_098",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.37,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4251,15 +4431,17 @@
       "properties": {
         "grid_id": "ndmi_cell_099",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.368,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4294,15 +4476,17 @@
       "properties": {
         "grid_id": "ndmi_cell_100",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.344,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4337,15 +4521,17 @@
       "properties": {
         "grid_id": "ndmi_cell_101",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.163,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4380,15 +4566,17 @@
       "properties": {
         "grid_id": "ndmi_cell_102",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.171,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4423,15 +4611,17 @@
       "properties": {
         "grid_id": "ndmi_cell_103",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.31,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4466,15 +4656,17 @@
       "properties": {
         "grid_id": "ndmi_cell_104",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.398,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4509,15 +4701,17 @@
       "properties": {
         "grid_id": "ndmi_cell_105",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.361,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4552,15 +4746,17 @@
       "properties": {
         "grid_id": "ndmi_cell_106",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.091,
         "moisture_class": "Low Moisture / Sandy Fringe",
         "fill_color": "#fed98e",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4595,15 +4791,17 @@
       "properties": {
         "grid_id": "ndmi_cell_107",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.16,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4638,15 +4836,17 @@
       "properties": {
         "grid_id": "ndmi_cell_108",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.346,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4681,15 +4881,17 @@
       "properties": {
         "grid_id": "ndmi_cell_109",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.335,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4724,15 +4926,17 @@
       "properties": {
         "grid_id": "ndmi_cell_110",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.415,
         "moisture_class": "High Canopy Moisture / Wetland",
         "fill_color": "#238b45",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4767,15 +4971,17 @@
       "properties": {
         "grid_id": "ndmi_cell_111",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.008,
         "moisture_class": "Low Moisture / Sandy Fringe",
         "fill_color": "#fed98e",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4810,15 +5016,17 @@
       "properties": {
         "grid_id": "ndmi_cell_112",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": -0.038,
         "moisture_class": "Low Moisture / Sandy Fringe",
         "fill_color": "#fed98e",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4853,15 +5061,17 @@
       "properties": {
         "grid_id": "ndmi_cell_113",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.247,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4896,15 +5106,17 @@
       "properties": {
         "grid_id": "ndmi_cell_114",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.2,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4939,15 +5151,17 @@
       "properties": {
         "grid_id": "ndmi_cell_115",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.228,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -4982,15 +5196,17 @@
       "properties": {
         "grid_id": "ndmi_cell_116",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.059,
         "moisture_class": "Low Moisture / Sandy Fringe",
         "fill_color": "#fed98e",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -5025,15 +5241,17 @@
       "properties": {
         "grid_id": "ndmi_cell_117",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.016,
         "moisture_class": "Low Moisture / Sandy Fringe",
         "fill_color": "#fed98e",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -5068,15 +5286,17 @@
       "properties": {
         "grid_id": "ndmi_cell_118",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.188,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -5111,15 +5331,17 @@
       "properties": {
         "grid_id": "ndmi_cell_119",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.26,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -5154,15 +5376,17 @@
       "properties": {
         "grid_id": "ndmi_cell_120",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.2,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -5197,15 +5421,17 @@
       "properties": {
         "grid_id": "ndmi_cell_121",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.032,
         "moisture_class": "Low Moisture / Sandy Fringe",
         "fill_color": "#fed98e",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -5240,15 +5466,17 @@
       "properties": {
         "grid_id": "ndmi_cell_122",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.102,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -5283,15 +5511,17 @@
       "properties": {
         "grid_id": "ndmi_cell_123",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.18,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -5326,15 +5556,17 @@
       "properties": {
         "grid_id": "ndmi_cell_124",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.222,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -5369,15 +5601,17 @@
       "properties": {
         "grid_id": "ndmi_cell_125",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.263,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -5412,15 +5646,17 @@
       "properties": {
         "grid_id": "ndmi_cell_126",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.07,
         "moisture_class": "Low Moisture / Sandy Fringe",
         "fill_color": "#fed98e",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -5455,15 +5691,17 @@
       "properties": {
         "grid_id": "ndmi_cell_127",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.074,
         "moisture_class": "Low Moisture / Sandy Fringe",
         "fill_color": "#fed98e",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -5498,15 +5736,17 @@
       "properties": {
         "grid_id": "ndmi_cell_128",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.243,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -5541,15 +5781,17 @@
       "properties": {
         "grid_id": "ndmi_cell_129",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.183,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
@@ -5584,15 +5826,17 @@
       "properties": {
         "grid_id": "ndmi_cell_130",
         "layer_name": "NDMI (vegetation moisture indicator)",
+        "source_type": "simulated_demo",
+        "data_status": "simulated_demo",
         "ndmi_mean": 0.256,
         "moisture_class": "Moderate Canopy Moisture",
         "fill_color": "#a1d99b",
         "fill_opacity": 0.55,
-        "sensor": "Sentinel-2B MSI (Level-2A BOA)",
-        "scene_date": "2026-03-12",
+        "target_sensor": "Sentinel-2B MSI (Level-2A BOA, Tile T43PBT)",
+        "target_scene_date": "2026-03-12",
         "resolution_m": 20,
-        "cloud_masked_gap_pct": 0,
-        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 does not directly detect subsurface salinity; moisture stress is non-specific."
+        "export_execution_status": "GEE export template provided in scripts/google_earth_engine_ndmi_export.js; raster export not locally executed; values are simulated demonstration model",
+        "guardrail_notice": "Supporting environmental indicator only. Sentinel-2 doesn't measure underground salinity; vegetation stress is non-specific."
       },
       "geometry": {
         "type": "Polygon",
