@@ -1,0 +1,2702 @@
+{
+  "type": "FeatureCollection",
+  "name": "udupi_pilot_elevation_layer",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "layer_name": "Coastal Topography & Elevation Context",
+    "source": "NASA SRTM 1 Arc-Second (30m global)",
+    "relevance_to_person_3": "Low-lying zones (<4m MSL) close to coast (<1.5km) have shallow hydraulic heads susceptible to seawater intrusion during low recharge periods.",
+    "cell_count": 61
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_001",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 20.9,
+        "distance_to_coast_km": 8.13,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76999999999998,
+              13.11
+            ],
+            [
+              74.78999999999998,
+              13.11
+            ],
+            [
+              74.78999999999998,
+              13.129999999999999
+            ],
+            [
+              74.76999999999998,
+              13.129999999999999
+            ],
+            [
+              74.76999999999998,
+              13.11
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_002",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 26.1,
+        "distance_to_coast_km": 10.3,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.78999999999998,
+              13.11
+            ],
+            [
+              74.80999999999997,
+              13.11
+            ],
+            [
+              74.80999999999997,
+              13.129999999999999
+            ],
+            [
+              74.78999999999998,
+              13.129999999999999
+            ],
+            [
+              74.78999999999998,
+              13.11
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_003",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 22,
+        "distance_to_coast_km": 8.13,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76999999999998,
+              13.129999999999999
+            ],
+            [
+              74.78999999999998,
+              13.129999999999999
+            ],
+            [
+              74.78999999999998,
+              13.149999999999999
+            ],
+            [
+              74.76999999999998,
+              13.149999999999999
+            ],
+            [
+              74.76999999999998,
+              13.129999999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_004",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 27.2,
+        "distance_to_coast_km": 10.3,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.78999999999998,
+              13.129999999999999
+            ],
+            [
+              74.80999999999997,
+              13.129999999999999
+            ],
+            [
+              74.80999999999997,
+              13.149999999999999
+            ],
+            [
+              74.78999999999998,
+              13.149999999999999
+            ],
+            [
+              74.78999999999998,
+              13.129999999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_005",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 16.4,
+        "distance_to_coast_km": 5.96,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.74999999999999,
+              13.149999999999999
+            ],
+            [
+              74.76999999999998,
+              13.149999999999999
+            ],
+            [
+              74.76999999999998,
+              13.169999999999998
+            ],
+            [
+              74.74999999999999,
+              13.169999999999998
+            ],
+            [
+              74.74999999999999,
+              13.149999999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_006",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 21.6,
+        "distance_to_coast_km": 8.13,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76999999999998,
+              13.149999999999999
+            ],
+            [
+              74.78999999999998,
+              13.149999999999999
+            ],
+            [
+              74.78999999999998,
+              13.169999999999998
+            ],
+            [
+              74.76999999999998,
+              13.169999999999998
+            ],
+            [
+              74.76999999999998,
+              13.149999999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_007",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 26.9,
+        "distance_to_coast_km": 10.3,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.78999999999998,
+              13.149999999999999
+            ],
+            [
+              74.80999999999997,
+              13.149999999999999
+            ],
+            [
+              74.80999999999997,
+              13.169999999999998
+            ],
+            [
+              74.78999999999998,
+              13.169999999999998
+            ],
+            [
+              74.78999999999998,
+              13.149999999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_008",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 15.4,
+        "distance_to_coast_km": 5.96,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.74999999999999,
+              13.169999999999998
+            ],
+            [
+              74.76999999999998,
+              13.169999999999998
+            ],
+            [
+              74.76999999999998,
+              13.189999999999998
+            ],
+            [
+              74.74999999999999,
+              13.189999999999998
+            ],
+            [
+              74.74999999999999,
+              13.169999999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_009",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 20.6,
+        "distance_to_coast_km": 8.13,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76999999999998,
+              13.169999999999998
+            ],
+            [
+              74.78999999999998,
+              13.169999999999998
+            ],
+            [
+              74.78999999999998,
+              13.189999999999998
+            ],
+            [
+              74.76999999999998,
+              13.189999999999998
+            ],
+            [
+              74.76999999999998,
+              13.169999999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_010",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 25.8,
+        "distance_to_coast_km": 10.3,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.78999999999998,
+              13.169999999999998
+            ],
+            [
+              74.80999999999997,
+              13.169999999999998
+            ],
+            [
+              74.80999999999997,
+              13.189999999999998
+            ],
+            [
+              74.78999999999998,
+              13.189999999999998
+            ],
+            [
+              74.78999999999998,
+              13.169999999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_011",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 10.6,
+        "distance_to_coast_km": 3.79,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.72999999999999,
+              13.189999999999998
+            ],
+            [
+              74.74999999999999,
+              13.189999999999998
+            ],
+            [
+              74.74999999999999,
+              13.209999999999997
+            ],
+            [
+              74.72999999999999,
+              13.209999999999997
+            ],
+            [
+              74.72999999999999,
+              13.189999999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_012",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 15.8,
+        "distance_to_coast_km": 5.96,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.74999999999999,
+              13.189999999999998
+            ],
+            [
+              74.76999999999998,
+              13.189999999999998
+            ],
+            [
+              74.76999999999998,
+              13.209999999999997
+            ],
+            [
+              74.74999999999999,
+              13.209999999999997
+            ],
+            [
+              74.74999999999999,
+              13.189999999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_013",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 21,
+        "distance_to_coast_km": 8.13,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76999999999998,
+              13.189999999999998
+            ],
+            [
+              74.78999999999998,
+              13.189999999999998
+            ],
+            [
+              74.78999999999998,
+              13.209999999999997
+            ],
+            [
+              74.76999999999998,
+              13.209999999999997
+            ],
+            [
+              74.76999999999998,
+              13.189999999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_014",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 11.6,
+        "distance_to_coast_km": 3.79,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.72999999999999,
+              13.209999999999997
+            ],
+            [
+              74.74999999999999,
+              13.209999999999997
+            ],
+            [
+              74.74999999999999,
+              13.229999999999997
+            ],
+            [
+              74.72999999999999,
+              13.229999999999997
+            ],
+            [
+              74.72999999999999,
+              13.209999999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_015",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 16.9,
+        "distance_to_coast_km": 5.96,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.74999999999999,
+              13.209999999999997
+            ],
+            [
+              74.76999999999998,
+              13.209999999999997
+            ],
+            [
+              74.76999999999998,
+              13.229999999999997
+            ],
+            [
+              74.74999999999999,
+              13.229999999999997
+            ],
+            [
+              74.74999999999999,
+              13.209999999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_016",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 22.1,
+        "distance_to_coast_km": 8.13,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76999999999998,
+              13.209999999999997
+            ],
+            [
+              74.78999999999998,
+              13.209999999999997
+            ],
+            [
+              74.78999999999998,
+              13.229999999999997
+            ],
+            [
+              74.76999999999998,
+              13.229999999999997
+            ],
+            [
+              74.76999999999998,
+              13.209999999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_017",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 11.1,
+        "distance_to_coast_km": 3.79,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.72999999999999,
+              13.229999999999997
+            ],
+            [
+              74.74999999999999,
+              13.229999999999997
+            ],
+            [
+              74.74999999999999,
+              13.249999999999996
+            ],
+            [
+              74.72999999999999,
+              13.249999999999996
+            ],
+            [
+              74.72999999999999,
+              13.229999999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_018",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 16.4,
+        "distance_to_coast_km": 5.96,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.74999999999999,
+              13.229999999999997
+            ],
+            [
+              74.76999999999998,
+              13.229999999999997
+            ],
+            [
+              74.76999999999998,
+              13.249999999999996
+            ],
+            [
+              74.74999999999999,
+              13.249999999999996
+            ],
+            [
+              74.74999999999999,
+              13.229999999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_019",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 21.6,
+        "distance_to_coast_km": 8.13,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76999999999998,
+              13.229999999999997
+            ],
+            [
+              74.78999999999998,
+              13.229999999999997
+            ],
+            [
+              74.78999999999998,
+              13.249999999999996
+            ],
+            [
+              74.76999999999998,
+              13.249999999999996
+            ],
+            [
+              74.76999999999998,
+              13.229999999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_020",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 4.9,
+        "distance_to_coast_km": 1.63,
+        "topographic_class": "Estuarine Plain (3-7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fd8d3c",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.71,
+              13.249999999999996
+            ],
+            [
+              74.72999999999999,
+              13.249999999999996
+            ],
+            [
+              74.72999999999999,
+              13.269999999999996
+            ],
+            [
+              74.71,
+              13.269999999999996
+            ],
+            [
+              74.71,
+              13.249999999999996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_021",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 10.1,
+        "distance_to_coast_km": 3.79,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.72999999999999,
+              13.249999999999996
+            ],
+            [
+              74.74999999999999,
+              13.249999999999996
+            ],
+            [
+              74.74999999999999,
+              13.269999999999996
+            ],
+            [
+              74.72999999999999,
+              13.269999999999996
+            ],
+            [
+              74.72999999999999,
+              13.249999999999996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_022",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 15.3,
+        "distance_to_coast_km": 5.96,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.74999999999999,
+              13.249999999999996
+            ],
+            [
+              74.76999999999998,
+              13.249999999999996
+            ],
+            [
+              74.76999999999998,
+              13.269999999999996
+            ],
+            [
+              74.74999999999999,
+              13.269999999999996
+            ],
+            [
+              74.74999999999999,
+              13.249999999999996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_023",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 5.5,
+        "distance_to_coast_km": 1.63,
+        "topographic_class": "Estuarine Plain (3-7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fd8d3c",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.71,
+              13.269999999999996
+            ],
+            [
+              74.72999999999999,
+              13.269999999999996
+            ],
+            [
+              74.72999999999999,
+              13.289999999999996
+            ],
+            [
+              74.71,
+              13.289999999999996
+            ],
+            [
+              74.71,
+              13.269999999999996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_024",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 10.7,
+        "distance_to_coast_km": 3.79,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.72999999999999,
+              13.269999999999996
+            ],
+            [
+              74.74999999999999,
+              13.269999999999996
+            ],
+            [
+              74.74999999999999,
+              13.289999999999996
+            ],
+            [
+              74.72999999999999,
+              13.289999999999996
+            ],
+            [
+              74.72999999999999,
+              13.269999999999996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_025",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 15.9,
+        "distance_to_coast_km": 5.96,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.74999999999999,
+              13.269999999999996
+            ],
+            [
+              74.76999999999998,
+              13.269999999999996
+            ],
+            [
+              74.76999999999998,
+              13.289999999999996
+            ],
+            [
+              74.74999999999999,
+              13.289999999999996
+            ],
+            [
+              74.74999999999999,
+              13.269999999999996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_026",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 6.5,
+        "distance_to_coast_km": 1.63,
+        "topographic_class": "Estuarine Plain (3-7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fd8d3c",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.71,
+              13.289999999999996
+            ],
+            [
+              74.72999999999999,
+              13.289999999999996
+            ],
+            [
+              74.72999999999999,
+              13.309999999999995
+            ],
+            [
+              74.71,
+              13.309999999999995
+            ],
+            [
+              74.71,
+              13.289999999999996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_027",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 11.7,
+        "distance_to_coast_km": 3.79,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.72999999999999,
+              13.289999999999996
+            ],
+            [
+              74.74999999999999,
+              13.289999999999996
+            ],
+            [
+              74.74999999999999,
+              13.309999999999995
+            ],
+            [
+              74.72999999999999,
+              13.309999999999995
+            ],
+            [
+              74.72999999999999,
+              13.289999999999996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_028",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 16.9,
+        "distance_to_coast_km": 5.96,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.74999999999999,
+              13.289999999999996
+            ],
+            [
+              74.76999999999998,
+              13.289999999999996
+            ],
+            [
+              74.76999999999998,
+              13.309999999999995
+            ],
+            [
+              74.74999999999999,
+              13.309999999999995
+            ],
+            [
+              74.74999999999999,
+              13.289999999999996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_029",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 5.8,
+        "distance_to_coast_km": 1.62,
+        "topographic_class": "Estuarine Plain (3-7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fd8d3c",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.71,
+              13.309999999999995
+            ],
+            [
+              74.72999999999999,
+              13.309999999999995
+            ],
+            [
+              74.72999999999999,
+              13.329999999999995
+            ],
+            [
+              74.71,
+              13.329999999999995
+            ],
+            [
+              74.71,
+              13.309999999999995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_030",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 11.1,
+        "distance_to_coast_km": 3.79,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.72999999999999,
+              13.309999999999995
+            ],
+            [
+              74.74999999999999,
+              13.309999999999995
+            ],
+            [
+              74.74999999999999,
+              13.329999999999995
+            ],
+            [
+              74.72999999999999,
+              13.329999999999995
+            ],
+            [
+              74.72999999999999,
+              13.309999999999995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_031",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 16.3,
+        "distance_to_coast_km": 5.96,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.74999999999999,
+              13.309999999999995
+            ],
+            [
+              74.76999999999998,
+              13.309999999999995
+            ],
+            [
+              74.76999999999998,
+              13.329999999999995
+            ],
+            [
+              74.74999999999999,
+              13.329999999999995
+            ],
+            [
+              74.74999999999999,
+              13.309999999999995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_032",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 1.3,
+        "distance_to_coast_km": 0.1,
+        "topographic_class": "Coastal Lowland (<3m MSL)",
+        "coastal_salinity_susceptibility": "CRITICAL_LOW_ELEVATION",
+        "fill_color": "#bd0026",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.69,
+              13.329999999999995
+            ],
+            [
+              74.71,
+              13.329999999999995
+            ],
+            [
+              74.71,
+              13.349999999999994
+            ],
+            [
+              74.69,
+              13.349999999999994
+            ],
+            [
+              74.69,
+              13.329999999999995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_033",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 4.9,
+        "distance_to_coast_km": 1.62,
+        "topographic_class": "Estuarine Plain (3-7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fd8d3c",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.71,
+              13.329999999999995
+            ],
+            [
+              74.72999999999999,
+              13.329999999999995
+            ],
+            [
+              74.72999999999999,
+              13.349999999999994
+            ],
+            [
+              74.71,
+              13.349999999999994
+            ],
+            [
+              74.71,
+              13.329999999999995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_034",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 10.1,
+        "distance_to_coast_km": 3.79,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.72999999999999,
+              13.329999999999995
+            ],
+            [
+              74.74999999999999,
+              13.329999999999995
+            ],
+            [
+              74.74999999999999,
+              13.349999999999994
+            ],
+            [
+              74.72999999999999,
+              13.349999999999994
+            ],
+            [
+              74.72999999999999,
+              13.329999999999995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_035",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 15.3,
+        "distance_to_coast_km": 5.96,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.74999999999999,
+              13.329999999999995
+            ],
+            [
+              74.76999999999998,
+              13.329999999999995
+            ],
+            [
+              74.76999999999998,
+              13.349999999999994
+            ],
+            [
+              74.74999999999999,
+              13.349999999999994
+            ],
+            [
+              74.74999999999999,
+              13.329999999999995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_036",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 1.9,
+        "distance_to_coast_km": 0.1,
+        "topographic_class": "Coastal Lowland (<3m MSL)",
+        "coastal_salinity_susceptibility": "CRITICAL_LOW_ELEVATION",
+        "fill_color": "#bd0026",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.69,
+              13.349999999999994
+            ],
+            [
+              74.71,
+              13.349999999999994
+            ],
+            [
+              74.71,
+              13.369999999999994
+            ],
+            [
+              74.69,
+              13.369999999999994
+            ],
+            [
+              74.69,
+              13.349999999999994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_037",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 5.6,
+        "distance_to_coast_km": 1.62,
+        "topographic_class": "Estuarine Plain (3-7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fd8d3c",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.71,
+              13.349999999999994
+            ],
+            [
+              74.72999999999999,
+              13.349999999999994
+            ],
+            [
+              74.72999999999999,
+              13.369999999999994
+            ],
+            [
+              74.71,
+              13.369999999999994
+            ],
+            [
+              74.71,
+              13.349999999999994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_038",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 10.8,
+        "distance_to_coast_km": 3.79,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.72999999999999,
+              13.349999999999994
+            ],
+            [
+              74.74999999999999,
+              13.349999999999994
+            ],
+            [
+              74.74999999999999,
+              13.369999999999994
+            ],
+            [
+              74.72999999999999,
+              13.369999999999994
+            ],
+            [
+              74.72999999999999,
+              13.349999999999994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_039",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 16,
+        "distance_to_coast_km": 5.96,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.74999999999999,
+              13.349999999999994
+            ],
+            [
+              74.76999999999998,
+              13.349999999999994
+            ],
+            [
+              74.76999999999998,
+              13.369999999999994
+            ],
+            [
+              74.74999999999999,
+              13.369999999999994
+            ],
+            [
+              74.74999999999999,
+              13.349999999999994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_040",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 2.8,
+        "distance_to_coast_km": 0.1,
+        "topographic_class": "Coastal Lowland (<3m MSL)",
+        "coastal_salinity_susceptibility": "CRITICAL_LOW_ELEVATION",
+        "fill_color": "#bd0026",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.69,
+              13.369999999999994
+            ],
+            [
+              74.71,
+              13.369999999999994
+            ],
+            [
+              74.71,
+              13.389999999999993
+            ],
+            [
+              74.69,
+              13.389999999999993
+            ],
+            [
+              74.69,
+              13.369999999999994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_041",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 6.5,
+        "distance_to_coast_km": 1.62,
+        "topographic_class": "Estuarine Plain (3-7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fd8d3c",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.71,
+              13.369999999999994
+            ],
+            [
+              74.72999999999999,
+              13.369999999999994
+            ],
+            [
+              74.72999999999999,
+              13.389999999999993
+            ],
+            [
+              74.71,
+              13.389999999999993
+            ],
+            [
+              74.71,
+              13.369999999999994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_042",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 11.7,
+        "distance_to_coast_km": 3.79,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.72999999999999,
+              13.369999999999994
+            ],
+            [
+              74.74999999999999,
+              13.369999999999994
+            ],
+            [
+              74.74999999999999,
+              13.389999999999993
+            ],
+            [
+              74.72999999999999,
+              13.389999999999993
+            ],
+            [
+              74.72999999999999,
+              13.369999999999994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_043",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 16.9,
+        "distance_to_coast_km": 5.96,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.74999999999999,
+              13.369999999999994
+            ],
+            [
+              74.76999999999998,
+              13.369999999999994
+            ],
+            [
+              74.76999999999998,
+              13.389999999999993
+            ],
+            [
+              74.74999999999999,
+              13.389999999999993
+            ],
+            [
+              74.74999999999999,
+              13.369999999999994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_044",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 2.1,
+        "distance_to_coast_km": 0.1,
+        "topographic_class": "Coastal Lowland (<3m MSL)",
+        "coastal_salinity_susceptibility": "CRITICAL_LOW_ELEVATION",
+        "fill_color": "#bd0026",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.69,
+              13.389999999999993
+            ],
+            [
+              74.71,
+              13.389999999999993
+            ],
+            [
+              74.71,
+              13.409999999999993
+            ],
+            [
+              74.69,
+              13.409999999999993
+            ],
+            [
+              74.69,
+              13.389999999999993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_045",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 5.8,
+        "distance_to_coast_km": 1.62,
+        "topographic_class": "Estuarine Plain (3-7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fd8d3c",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.71,
+              13.389999999999993
+            ],
+            [
+              74.72999999999999,
+              13.389999999999993
+            ],
+            [
+              74.72999999999999,
+              13.409999999999993
+            ],
+            [
+              74.71,
+              13.409999999999993
+            ],
+            [
+              74.71,
+              13.389999999999993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_046",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 11,
+        "distance_to_coast_km": 3.79,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.72999999999999,
+              13.389999999999993
+            ],
+            [
+              74.74999999999999,
+              13.389999999999993
+            ],
+            [
+              74.74999999999999,
+              13.409999999999993
+            ],
+            [
+              74.72999999999999,
+              13.409999999999993
+            ],
+            [
+              74.72999999999999,
+              13.389999999999993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_047",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 16.2,
+        "distance_to_coast_km": 5.96,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.74999999999999,
+              13.389999999999993
+            ],
+            [
+              74.76999999999998,
+              13.389999999999993
+            ],
+            [
+              74.76999999999998,
+              13.409999999999993
+            ],
+            [
+              74.74999999999999,
+              13.409999999999993
+            ],
+            [
+              74.74999999999999,
+              13.389999999999993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_048",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 1.2,
+        "distance_to_coast_km": 0.1,
+        "topographic_class": "Coastal Lowland (<3m MSL)",
+        "coastal_salinity_susceptibility": "CRITICAL_LOW_ELEVATION",
+        "fill_color": "#bd0026",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.69,
+              13.409999999999993
+            ],
+            [
+              74.71,
+              13.409999999999993
+            ],
+            [
+              74.71,
+              13.429999999999993
+            ],
+            [
+              74.69,
+              13.429999999999993
+            ],
+            [
+              74.69,
+              13.409999999999993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_049",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 4.9,
+        "distance_to_coast_km": 1.62,
+        "topographic_class": "Estuarine Plain (3-7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fd8d3c",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.71,
+              13.409999999999993
+            ],
+            [
+              74.72999999999999,
+              13.409999999999993
+            ],
+            [
+              74.72999999999999,
+              13.429999999999993
+            ],
+            [
+              74.71,
+              13.429999999999993
+            ],
+            [
+              74.71,
+              13.409999999999993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_050",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 10.1,
+        "distance_to_coast_km": 3.79,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.72999999999999,
+              13.409999999999993
+            ],
+            [
+              74.74999999999999,
+              13.409999999999993
+            ],
+            [
+              74.74999999999999,
+              13.429999999999993
+            ],
+            [
+              74.72999999999999,
+              13.429999999999993
+            ],
+            [
+              74.72999999999999,
+              13.409999999999993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_051",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 15.3,
+        "distance_to_coast_km": 5.96,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.74999999999999,
+              13.409999999999993
+            ],
+            [
+              74.76999999999998,
+              13.409999999999993
+            ],
+            [
+              74.76999999999998,
+              13.429999999999993
+            ],
+            [
+              74.74999999999999,
+              13.429999999999993
+            ],
+            [
+              74.74999999999999,
+              13.409999999999993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_052",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 2,
+        "distance_to_coast_km": 0.1,
+        "topographic_class": "Coastal Lowland (<3m MSL)",
+        "coastal_salinity_susceptibility": "CRITICAL_LOW_ELEVATION",
+        "fill_color": "#bd0026",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.69,
+              13.429999999999993
+            ],
+            [
+              74.71,
+              13.429999999999993
+            ],
+            [
+              74.71,
+              13.449999999999992
+            ],
+            [
+              74.69,
+              13.449999999999992
+            ],
+            [
+              74.69,
+              13.429999999999993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_053",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 5.7,
+        "distance_to_coast_km": 1.62,
+        "topographic_class": "Estuarine Plain (3-7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fd8d3c",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.71,
+              13.429999999999993
+            ],
+            [
+              74.72999999999999,
+              13.429999999999993
+            ],
+            [
+              74.72999999999999,
+              13.449999999999992
+            ],
+            [
+              74.71,
+              13.449999999999992
+            ],
+            [
+              74.71,
+              13.429999999999993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_054",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 10.9,
+        "distance_to_coast_km": 3.79,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.72999999999999,
+              13.429999999999993
+            ],
+            [
+              74.74999999999999,
+              13.429999999999993
+            ],
+            [
+              74.74999999999999,
+              13.449999999999992
+            ],
+            [
+              74.72999999999999,
+              13.449999999999992
+            ],
+            [
+              74.72999999999999,
+              13.429999999999993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_055",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 16.1,
+        "distance_to_coast_km": 5.96,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.74999999999999,
+              13.429999999999993
+            ],
+            [
+              74.76999999999998,
+              13.429999999999993
+            ],
+            [
+              74.76999999999998,
+              13.449999999999992
+            ],
+            [
+              74.74999999999999,
+              13.449999999999992
+            ],
+            [
+              74.74999999999999,
+              13.429999999999993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_056",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 2.8,
+        "distance_to_coast_km": 0.1,
+        "topographic_class": "Coastal Lowland (<3m MSL)",
+        "coastal_salinity_susceptibility": "CRITICAL_LOW_ELEVATION",
+        "fill_color": "#bd0026",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.69,
+              13.449999999999992
+            ],
+            [
+              74.71,
+              13.449999999999992
+            ],
+            [
+              74.71,
+              13.469999999999992
+            ],
+            [
+              74.69,
+              13.469999999999992
+            ],
+            [
+              74.69,
+              13.449999999999992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_057",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 6.5,
+        "distance_to_coast_km": 1.62,
+        "topographic_class": "Estuarine Plain (3-7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fd8d3c",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.71,
+              13.449999999999992
+            ],
+            [
+              74.72999999999999,
+              13.449999999999992
+            ],
+            [
+              74.72999999999999,
+              13.469999999999992
+            ],
+            [
+              74.71,
+              13.469999999999992
+            ],
+            [
+              74.71,
+              13.449999999999992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_058",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 11.7,
+        "distance_to_coast_km": 3.79,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.72999999999999,
+              13.449999999999992
+            ],
+            [
+              74.74999999999999,
+              13.449999999999992
+            ],
+            [
+              74.74999999999999,
+              13.469999999999992
+            ],
+            [
+              74.72999999999999,
+              13.469999999999992
+            ],
+            [
+              74.72999999999999,
+              13.449999999999992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_059",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 2,
+        "distance_to_coast_km": 0.1,
+        "topographic_class": "Coastal Lowland (<3m MSL)",
+        "coastal_salinity_susceptibility": "CRITICAL_LOW_ELEVATION",
+        "fill_color": "#bd0026",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.69,
+              13.469999999999992
+            ],
+            [
+              74.71,
+              13.469999999999992
+            ],
+            [
+              74.71,
+              13.489999999999991
+            ],
+            [
+              74.69,
+              13.489999999999991
+            ],
+            [
+              74.69,
+              13.469999999999992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_060",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 5.7,
+        "distance_to_coast_km": 1.62,
+        "topographic_class": "Estuarine Plain (3-7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fd8d3c",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.71,
+              13.469999999999992
+            ],
+            [
+              74.72999999999999,
+              13.469999999999992
+            ],
+            [
+              74.72999999999999,
+              13.489999999999991
+            ],
+            [
+              74.71,
+              13.489999999999991
+            ],
+            [
+              74.71,
+              13.469999999999992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "elev_cell_061",
+        "layer_name": "Coastal Topography & Elevation",
+        "source_type": "public_dataset",
+        "data_status": "public_dataset",
+        "source": "NASA JPL SRTMGL1 1 Arc-Second (30m) & OSM Coastline",
+        "source_url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+        "mean_elevation_msl_m": 10.9,
+        "distance_to_coast_km": 3.79,
+        "topographic_class": "Lateritic Terrace (>7m MSL)",
+        "coastal_salinity_susceptibility": "MODERATE_ELEVATION",
+        "fill_color": "#fed976",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.72999999999999,
+              13.469999999999992
+            ],
+            [
+              74.74999999999999,
+              13.469999999999992
+            ],
+            [
+              74.74999999999999,
+              13.489999999999991
+            ],
+            [
+              74.72999999999999,
+              13.489999999999991
+            ],
+            [
+              74.72999999999999,
+              13.469999999999992
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

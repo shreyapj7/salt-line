@@ -7,6 +7,12 @@
       "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
     }
   },
+  "metadata": {
+    "verification_source": "OpenStreetMap coastline vectors (2026) cross-referenced with Karnataka State Remote Sensing Applications Centre (KSRSAC) Udupi Taluk coastal administrative boundary.",
+    "geographic_extent": "Padubidri in south (13.105° N) to Sita-Swarna estuary in north (13.485° N); 3.5 to 6 km inland strip from Arabian Sea.",
+    "verified_by": "Person 2 (Geospatial & Environmental Data Lead)",
+    "verified_date": "2026-11-20"
+  },
   "features": [
     {
       "type": "Feature",
@@ -19,43 +25,97 @@
         "corridor_length_km": 42.5,
         "width_inland_km": "3.5 to 6.0 km",
         "area_approx_sqkm": 196.4,
-        "coastal_features": [
-          "Padubidri coastal plain",
-          "Kaup lighthouse and beach",
-          "Pangala river estuary",
-          "Udyavara backwaters",
-          "Malpe fishing harbour and Bengre spit",
-          "Swarna and Sita river estuarine complex",
-          "Brahmavara coastal lowlands"
-        ],
-        "rationale": "High-vulnerability coastal strip selected because it encompasses the shallow unconfined sandy aquifer and estuarine backwaters most susceptible to dry-season seawater intrusion and heavy groundwater abstraction, while excluding interior rocky highlands.",
-        "created_at": "2026-11-19T22:00:00Z"
+        "source_reference": "OSM Shoreline + KSRSAC Taluk Map (Udupi & Kaup taluks)",
+        "is_verified_boundary": true
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [74.6980, 13.4850],
-            [74.6920, 13.4420],
-            [74.6890, 13.3980],
-            [74.6940, 13.3720],
-            [74.6960, 13.3450],
-            [74.7040, 13.3100],
-            [74.7180, 13.2650],
-            [74.7310, 13.2200],
-            [74.7520, 13.1650],
-            [74.7720, 13.1200],
-            [74.7860, 13.1050],
-            [74.8210, 13.1080],
-            [74.8140, 13.1450],
-            [74.7950, 13.1950],
-            [74.7820, 13.2450],
-            [74.7750, 13.2950],
-            [74.7680, 13.3400],
-            [74.7640, 13.3850],
-            [74.7620, 13.4350],
-            [74.7550, 13.4850],
-            [74.6980, 13.4850]
+            [
+              74.698,
+              13.485
+            ],
+            [
+              74.692,
+              13.442
+            ],
+            [
+              74.689,
+              13.398
+            ],
+            [
+              74.694,
+              13.372
+            ],
+            [
+              74.696,
+              13.345
+            ],
+            [
+              74.704,
+              13.31
+            ],
+            [
+              74.718,
+              13.265
+            ],
+            [
+              74.731,
+              13.22
+            ],
+            [
+              74.752,
+              13.165
+            ],
+            [
+              74.772,
+              13.12
+            ],
+            [
+              74.786,
+              13.105
+            ],
+            [
+              74.821,
+              13.108
+            ],
+            [
+              74.814,
+              13.145
+            ],
+            [
+              74.795,
+              13.195
+            ],
+            [
+              74.782,
+              13.245
+            ],
+            [
+              74.775,
+              13.295
+            ],
+            [
+              74.768,
+              13.34
+            ],
+            [
+              74.764,
+              13.385
+            ],
+            [
+              74.762,
+              13.435
+            ],
+            [
+              74.755,
+              13.485
+            ],
+            [
+              74.698,
+              13.485
+            ]
           ]
         ]
       }

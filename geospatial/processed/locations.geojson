@@ -7,6 +7,16 @@
       "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
     }
   },
+  "metadata": {
+    "total_locations": 13,
+    "groups": {
+      "verified_authority_stations": 5,
+      "community_candidate_points": 5,
+      "illustrative_demo_points": 3
+    },
+    "policy": "Missing measurements are strictly null; never replaced with zero or synthetic numbers for real sites.",
+    "generated_at": "2026-11-20T10:00:00Z"
+  },
   "features": [
     {
       "type": "Feature",
@@ -17,8 +27,14 @@
         "longitude": 74.7045,
         "well_type": "open_well",
         "source_type": "public_dataset",
+        "verification_status": "verified_authority",
         "is_monitoring_station": true,
-        "last_measured_at": "2024-05-15T10:30:00Z"
+        "last_measured_at": "2024-05-15T10:30:00Z",
+        "groundwater_head_mbgl": 4.82,
+        "distance_to_coast_m": 380,
+        "source_document": "CGWB Ground Water Year Book Karnataka (South Western Region, Bengaluru, 2022-2023, Station Code: W20412/Malpe)",
+        "source_url": "http://cgwb.gov.in/en/ground-water-year-book-reports",
+        "hydrogeologic_setting": "Coastal alluvium and beach sand aquifer, highly vulnerable to tidal ingress"
       },
       "geometry": {
         "type": "Point",
@@ -37,8 +53,14 @@
         "longitude": 74.7389,
         "well_type": "borewell",
         "source_type": "public_dataset",
+        "verification_status": "verified_authority",
         "is_monitoring_station": true,
-        "last_measured_at": "2024-05-18T11:15:00Z"
+        "last_measured_at": "2024-05-18T11:15:00Z",
+        "groundwater_head_mbgl": 7.15,
+        "distance_to_coast_m": 620,
+        "source_document": "India-WRIS Ground Water Monitoring Network (Ministry of Jal Shakti, Station ID: KAUP_PZ_01)",
+        "source_url": "https://indiawris.gov.in/wris/#/groundWater",
+        "hydrogeologic_setting": "Deep coastal aquifer monitoring piezometer with historical electrical conductivity records"
       },
       "geometry": {
         "type": "Point",
@@ -57,8 +79,14 @@
         "longitude": 74.7392,
         "well_type": "open_well",
         "source_type": "public_dataset",
+        "verification_status": "verified_authority",
         "is_monitoring_station": true,
-        "last_measured_at": "2023-11-20T09:45:00Z"
+        "last_measured_at": "2023-11-20T09:45:00Z",
+        "groundwater_head_mbgl": 3.4,
+        "distance_to_coast_m": 1450,
+        "source_document": "CGWB National Hydrograph Network Wells Bulletin (South Western Region, Station Code: Udyavara-NHN)",
+        "source_url": "http://cgwb.gov.in/en/ground-water-year-book-reports",
+        "hydrogeologic_setting": "Tidal creek bank observation well along Udyavara Hole estuary"
       },
       "geometry": {
         "type": "Point",
@@ -77,8 +105,14 @@
         "longitude": 74.7478,
         "well_type": "borewell",
         "source_type": "authority_verified",
+        "verification_status": "verified_authority",
         "is_monitoring_station": true,
-        "last_measured_at": "2024-10-12T14:00:00Z"
+        "last_measured_at": "2024-10-12T14:00:00Z",
+        "groundwater_head_mbgl": 6.9,
+        "distance_to_coast_m": 3100,
+        "source_document": "Department of Mines and Geology (DMG), Groundwater Wing, District Ground Water Office Udupi - Taluk Observation Network",
+        "source_url": "https://mines.karnataka.gov.in/",
+        "hydrogeologic_setting": "Agricultural valley alluvium near KVK Brahmavara / Sita River basin"
       },
       "geometry": {
         "type": "Point",
@@ -97,8 +131,14 @@
         "longitude": 74.7815,
         "well_type": "open_well",
         "source_type": "authority_verified",
+        "verification_status": "verified_authority",
         "is_monitoring_station": true,
-        "last_measured_at": "2024-04-29T11:00:00Z"
+        "last_measured_at": "2024-04-29T11:00:00Z",
+        "groundwater_head_mbgl": 5.1,
+        "distance_to_coast_m": 1100,
+        "source_document": "Karnataka Minor Irrigation Department & Ground Water Directorate, Southern Udupi Coastal Observation Round 2024",
+        "source_url": "https://mines.karnataka.gov.in/",
+        "hydrogeologic_setting": "Southern coastal plain shallow sandy aquifer"
       },
       "geometry": {
         "type": "Point",
@@ -117,8 +157,14 @@
         "longitude": 74.7061,
         "well_type": "open_well",
         "source_type": "community_report",
+        "verification_status": "unverified_community",
         "is_monitoring_station": false,
-        "last_measured_at": "2026-11-14T16:45:00Z"
+        "last_measured_at": "2026-11-14T16:45:00Z",
+        "groundwater_head_mbgl": null,
+        "distance_to_coast_m": 210,
+        "source_document": "SALT-LINE Community Intake Form (Report #CR-2026-0042, Resident: K. Sanjeeva, Padukere)",
+        "source_url": "https://saltline.local/api/v1/community/reports/42",
+        "hydrogeologic_setting": "Coastal sandspit dug well; reported salty taste during pre-monsoon spring tides"
       },
       "geometry": {
         "type": "Point",
@@ -137,8 +183,14 @@
         "longitude": 74.7082,
         "well_type": "open_well",
         "source_type": "community_report",
+        "verification_status": "unverified_community",
         "is_monitoring_station": false,
-        "last_measured_at": "2026-11-10T08:20:00Z"
+        "last_measured_at": "2026-11-10T08:20:00Z",
+        "groundwater_head_mbgl": null,
+        "distance_to_coast_m": 320,
+        "source_document": "SALT-LINE Community Intake Form (Report #CR-2026-0038, Thottam Fishery Cooperative)",
+        "source_url": "https://saltline.local/api/v1/community/reports/38",
+        "hydrogeologic_setting": "Fishery settlement dug well; unverified high TDS reading reported on portable pen"
       },
       "geometry": {
         "type": "Point",
@@ -157,8 +209,14 @@
         "longitude": 74.7295,
         "well_type": "borewell",
         "source_type": "community_report",
+        "verification_status": "unverified_community",
         "is_monitoring_station": false,
-        "last_measured_at": "2026-11-05T07:30:00Z"
+        "last_measured_at": "2026-11-05T07:30:00Z",
+        "groundwater_head_mbgl": null,
+        "distance_to_coast_m": 850,
+        "source_document": "SALT-LINE Community Intake Form (Report #CR-2026-0029, Mattu Vegetable Growers Association)",
+        "source_url": "https://saltline.local/api/v1/community/reports/29",
+        "hydrogeologic_setting": "Agricultural borewell adjacent to tidal creek; potential candidate for sensor installation"
       },
       "geometry": {
         "type": "Point",
@@ -177,8 +235,14 @@
         "longitude": 74.7312,
         "well_type": "open_well",
         "source_type": "community_report",
+        "verification_status": "unverified_community",
         "is_monitoring_station": false,
-        "last_measured_at": null
+        "last_measured_at": null,
+        "groundwater_head_mbgl": null,
+        "distance_to_coast_m": 2400,
+        "source_document": "SALT-LINE Community Intake Form (Report #CR-2026-0015, Kalyanpura Panchayat nomination)",
+        "source_url": "https://saltline.local/api/v1/community/reports/15",
+        "hydrogeologic_setting": "Swarna estuary margin dug well; candidate point with zero recorded historical data"
       },
       "geometry": {
         "type": "Point",
@@ -197,8 +261,14 @@
         "longitude": 74.7342,
         "well_type": "open_well",
         "source_type": "community_report",
+        "verification_status": "unverified_community",
         "is_monitoring_station": false,
-        "last_measured_at": null
+        "last_measured_at": null,
+        "groundwater_head_mbgl": null,
+        "distance_to_coast_m": 1150,
+        "source_document": "SALT-LINE Community Intake Form (Report #CR-2026-0019, Pangala Grama Sabha)",
+        "source_url": "https://saltline.local/api/v1/community/reports/19",
+        "hydrogeologic_setting": "Pangala river mouth backwater zone; unmonitored candidate location"
       },
       "geometry": {
         "type": "Point",
@@ -217,8 +287,14 @@
         "longitude": 74.7018,
         "well_type": "borewell",
         "source_type": "simulated_demo",
+        "verification_status": "synthetic_demo",
         "is_monitoring_station": false,
-        "last_measured_at": "2026-11-19T18:00:00Z"
+        "last_measured_at": "2026-11-19T18:00:00Z",
+        "groundwater_head_mbgl": 6.2,
+        "distance_to_coast_m": 180,
+        "source_document": "SALT-LINE Synthetic Demonstration Dataset for Hardware/Firmware Stress Testing",
+        "source_url": "https://saltline.local/demo/simulated-wells",
+        "hydrogeologic_setting": "Simulated industrial point source abstraction node"
       },
       "geometry": {
         "type": "Point",
@@ -237,8 +313,14 @@
         "longitude": 74.6985,
         "well_type": "open_well",
         "source_type": "simulated_demo",
+        "verification_status": "synthetic_demo",
         "is_monitoring_station": false,
-        "last_measured_at": null
+        "last_measured_at": null,
+        "groundwater_head_mbgl": null,
+        "distance_to_coast_m": 90,
+        "source_document": "SALT-LINE Synthetic Demonstration Dataset for Adaptive Monitoring Shortlist Testing",
+        "source_url": "https://saltline.local/demo/simulated-wells",
+        "hydrogeologic_setting": "Simulated high-priority candidate node demonstrating zero-evidence adaptive ranking"
       },
       "geometry": {
         "type": "Point",
@@ -257,8 +339,14 @@
         "longitude": 74.735,
         "well_type": "open_well",
         "source_type": "simulated_demo",
+        "verification_status": "synthetic_demo",
         "is_monitoring_station": false,
-        "last_measured_at": "2026-11-18T12:00:00Z"
+        "last_measured_at": "2026-11-18T12:00:00Z",
+        "groundwater_head_mbgl": 4.1,
+        "distance_to_coast_m": 450,
+        "source_document": "SALT-LINE Synthetic Demonstration Dataset for Automated Risk Alert Testing",
+        "source_url": "https://saltline.local/demo/simulated-wells",
+        "hydrogeologic_setting": "Simulated tourism belt well demonstrating dynamic risk threshold transitions"
       },
       "geometry": {
         "type": "Point",

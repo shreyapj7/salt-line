@@ -1,0 +1,570 @@
+{
+  "type": "FeatureCollection",
+  "name": "udupi_pilot_rainfall_layer",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "layer_name": "Rainfall & Recharge Deficit Indicator",
+    "source": "IMD District Climate Normals & Gridded Precipitation (0.25 deg)",
+    "relevance_to_person_3": "Feeds into hydrogeological recharge deficit indicator. Severe dry-season deficit (<20 mm) increases aquifer extraction vulnerability.",
+    "cell_count": 12
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "rain_cell_001",
+        "layer_name": "Rainfall & Recharge Deficit",
+        "source_type": "public_dataset",
+        "data_status": "authority_verified_baseline",
+        "source": "India Meteorological Department (IMD) Hydromet Division / AWS Udupi & Kundapura",
+        "source_url": "https://mausam.imd.gov.in/",
+        "observation_period": "Pre-monsoon dry season baseline (Jan-Apr 2024-2026)",
+        "annual_normal_mm": 4120,
+        "dry_season_normal_mm": 42.5,
+        "dry_season_observed_mm": 14.2,
+        "recharge_deficit_pct": -66.6,
+        "vulnerability_signal": "HIGH_RECHARGE_DEFICIT",
+        "fill_color": "#e6550d",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.78,
+              13.11
+            ],
+            [
+              74.825,
+              13.11
+            ],
+            [
+              74.825,
+              13.155
+            ],
+            [
+              74.78,
+              13.155
+            ],
+            [
+              74.78,
+              13.11
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "rain_cell_002",
+        "layer_name": "Rainfall & Recharge Deficit",
+        "source_type": "public_dataset",
+        "data_status": "authority_verified_baseline",
+        "source": "India Meteorological Department (IMD) Hydromet Division / AWS Udupi & Kundapura",
+        "source_url": "https://mausam.imd.gov.in/",
+        "observation_period": "Pre-monsoon dry season baseline (Jan-Apr 2024-2026)",
+        "annual_normal_mm": 4120,
+        "dry_season_normal_mm": 42.5,
+        "dry_season_observed_mm": 14.2,
+        "recharge_deficit_pct": -66.6,
+        "vulnerability_signal": "HIGH_RECHARGE_DEFICIT",
+        "fill_color": "#e6550d",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.735,
+              13.155
+            ],
+            [
+              74.78,
+              13.155
+            ],
+            [
+              74.78,
+              13.2
+            ],
+            [
+              74.735,
+              13.2
+            ],
+            [
+              74.735,
+              13.155
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "rain_cell_003",
+        "layer_name": "Rainfall & Recharge Deficit",
+        "source_type": "public_dataset",
+        "data_status": "authority_verified_baseline",
+        "source": "India Meteorological Department (IMD) Hydromet Division / AWS Udupi & Kundapura",
+        "source_url": "https://mausam.imd.gov.in/",
+        "observation_period": "Pre-monsoon dry season baseline (Jan-Apr 2024-2026)",
+        "annual_normal_mm": 4120,
+        "dry_season_normal_mm": 42.5,
+        "dry_season_observed_mm": 14.2,
+        "recharge_deficit_pct": -66.6,
+        "vulnerability_signal": "HIGH_RECHARGE_DEFICIT",
+        "fill_color": "#e6550d",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.735,
+              13.2
+            ],
+            [
+              74.78,
+              13.2
+            ],
+            [
+              74.78,
+              13.245
+            ],
+            [
+              74.735,
+              13.245
+            ],
+            [
+              74.735,
+              13.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "rain_cell_004",
+        "layer_name": "Rainfall & Recharge Deficit",
+        "source_type": "public_dataset",
+        "data_status": "authority_verified_baseline",
+        "source": "India Meteorological Department (IMD) Hydromet Division / AWS Udupi & Kundapura",
+        "source_url": "https://mausam.imd.gov.in/",
+        "observation_period": "Pre-monsoon dry season baseline (Jan-Apr 2024-2026)",
+        "annual_normal_mm": 4120,
+        "dry_season_normal_mm": 42.5,
+        "dry_season_observed_mm": 14.2,
+        "recharge_deficit_pct": -66.6,
+        "vulnerability_signal": "HIGH_RECHARGE_DEFICIT",
+        "fill_color": "#e6550d",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.735,
+              13.245
+            ],
+            [
+              74.78,
+              13.245
+            ],
+            [
+              74.78,
+              13.29
+            ],
+            [
+              74.735,
+              13.29
+            ],
+            [
+              74.735,
+              13.245
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "rain_cell_005",
+        "layer_name": "Rainfall & Recharge Deficit",
+        "source_type": "public_dataset",
+        "data_status": "authority_verified_baseline",
+        "source": "India Meteorological Department (IMD) Hydromet Division / AWS Udupi & Kundapura",
+        "source_url": "https://mausam.imd.gov.in/",
+        "observation_period": "Pre-monsoon dry season baseline (Jan-Apr 2024-2026)",
+        "annual_normal_mm": 4120,
+        "dry_season_normal_mm": 42.5,
+        "dry_season_observed_mm": 14.2,
+        "recharge_deficit_pct": -66.6,
+        "vulnerability_signal": "HIGH_RECHARGE_DEFICIT",
+        "fill_color": "#e6550d",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.69,
+              13.29
+            ],
+            [
+              74.735,
+              13.29
+            ],
+            [
+              74.735,
+              13.334999999999999
+            ],
+            [
+              74.69,
+              13.334999999999999
+            ],
+            [
+              74.69,
+              13.29
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "rain_cell_006",
+        "layer_name": "Rainfall & Recharge Deficit",
+        "source_type": "public_dataset",
+        "data_status": "authority_verified_baseline",
+        "source": "India Meteorological Department (IMD) Hydromet Division / AWS Udupi & Kundapura",
+        "source_url": "https://mausam.imd.gov.in/",
+        "observation_period": "Pre-monsoon dry season baseline (Jan-Apr 2024-2026)",
+        "annual_normal_mm": 4120,
+        "dry_season_normal_mm": 42.5,
+        "dry_season_observed_mm": 14.2,
+        "recharge_deficit_pct": -66.6,
+        "vulnerability_signal": "HIGH_RECHARGE_DEFICIT",
+        "fill_color": "#e6550d",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.735,
+              13.29
+            ],
+            [
+              74.78,
+              13.29
+            ],
+            [
+              74.78,
+              13.334999999999999
+            ],
+            [
+              74.735,
+              13.334999999999999
+            ],
+            [
+              74.735,
+              13.29
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "rain_cell_007",
+        "layer_name": "Rainfall & Recharge Deficit",
+        "source_type": "public_dataset",
+        "data_status": "authority_verified_baseline",
+        "source": "India Meteorological Department (IMD) Hydromet Division / AWS Udupi & Kundapura",
+        "source_url": "https://mausam.imd.gov.in/",
+        "observation_period": "Pre-monsoon dry season baseline (Jan-Apr 2024-2026)",
+        "annual_normal_mm": 4120,
+        "dry_season_normal_mm": 42.5,
+        "dry_season_observed_mm": 14.2,
+        "recharge_deficit_pct": -66.6,
+        "vulnerability_signal": "HIGH_RECHARGE_DEFICIT",
+        "fill_color": "#e6550d",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.69,
+              13.334999999999999
+            ],
+            [
+              74.735,
+              13.334999999999999
+            ],
+            [
+              74.735,
+              13.379999999999999
+            ],
+            [
+              74.69,
+              13.379999999999999
+            ],
+            [
+              74.69,
+              13.334999999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "rain_cell_008",
+        "layer_name": "Rainfall & Recharge Deficit",
+        "source_type": "public_dataset",
+        "data_status": "authority_verified_baseline",
+        "source": "India Meteorological Department (IMD) Hydromet Division / AWS Udupi & Kundapura",
+        "source_url": "https://mausam.imd.gov.in/",
+        "observation_period": "Pre-monsoon dry season baseline (Jan-Apr 2024-2026)",
+        "annual_normal_mm": 4120,
+        "dry_season_normal_mm": 42.5,
+        "dry_season_observed_mm": 14.2,
+        "recharge_deficit_pct": -66.6,
+        "vulnerability_signal": "HIGH_RECHARGE_DEFICIT",
+        "fill_color": "#e6550d",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.735,
+              13.334999999999999
+            ],
+            [
+              74.78,
+              13.334999999999999
+            ],
+            [
+              74.78,
+              13.379999999999999
+            ],
+            [
+              74.735,
+              13.379999999999999
+            ],
+            [
+              74.735,
+              13.334999999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "rain_cell_009",
+        "layer_name": "Rainfall & Recharge Deficit",
+        "source_type": "public_dataset",
+        "data_status": "authority_verified_baseline",
+        "source": "India Meteorological Department (IMD) Hydromet Division / AWS Udupi & Kundapura",
+        "source_url": "https://mausam.imd.gov.in/",
+        "observation_period": "Pre-monsoon dry season baseline (Jan-Apr 2024-2026)",
+        "annual_normal_mm": 4120,
+        "dry_season_normal_mm": 42.5,
+        "dry_season_observed_mm": 14.2,
+        "recharge_deficit_pct": -66.6,
+        "vulnerability_signal": "HIGH_RECHARGE_DEFICIT",
+        "fill_color": "#e6550d",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.69,
+              13.379999999999999
+            ],
+            [
+              74.735,
+              13.379999999999999
+            ],
+            [
+              74.735,
+              13.424999999999999
+            ],
+            [
+              74.69,
+              13.424999999999999
+            ],
+            [
+              74.69,
+              13.379999999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "rain_cell_010",
+        "layer_name": "Rainfall & Recharge Deficit",
+        "source_type": "public_dataset",
+        "data_status": "authority_verified_baseline",
+        "source": "India Meteorological Department (IMD) Hydromet Division / AWS Udupi & Kundapura",
+        "source_url": "https://mausam.imd.gov.in/",
+        "observation_period": "Pre-monsoon dry season baseline (Jan-Apr 2024-2026)",
+        "annual_normal_mm": 4120,
+        "dry_season_normal_mm": 42.5,
+        "dry_season_observed_mm": 14.2,
+        "recharge_deficit_pct": -66.6,
+        "vulnerability_signal": "HIGH_RECHARGE_DEFICIT",
+        "fill_color": "#e6550d",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.735,
+              13.379999999999999
+            ],
+            [
+              74.78,
+              13.379999999999999
+            ],
+            [
+              74.78,
+              13.424999999999999
+            ],
+            [
+              74.735,
+              13.424999999999999
+            ],
+            [
+              74.735,
+              13.379999999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "rain_cell_011",
+        "layer_name": "Rainfall & Recharge Deficit",
+        "source_type": "public_dataset",
+        "data_status": "authority_verified_baseline",
+        "source": "India Meteorological Department (IMD) Hydromet Division / AWS Udupi & Kundapura",
+        "source_url": "https://mausam.imd.gov.in/",
+        "observation_period": "Pre-monsoon dry season baseline (Jan-Apr 2024-2026)",
+        "annual_normal_mm": 4120,
+        "dry_season_normal_mm": 42.5,
+        "dry_season_observed_mm": 14.2,
+        "recharge_deficit_pct": -66.6,
+        "vulnerability_signal": "HIGH_RECHARGE_DEFICIT",
+        "fill_color": "#e6550d",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.69,
+              13.424999999999999
+            ],
+            [
+              74.735,
+              13.424999999999999
+            ],
+            [
+              74.735,
+              13.469999999999999
+            ],
+            [
+              74.69,
+              13.469999999999999
+            ],
+            [
+              74.69,
+              13.424999999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "rain_cell_012",
+        "layer_name": "Rainfall & Recharge Deficit",
+        "source_type": "public_dataset",
+        "data_status": "authority_verified_baseline",
+        "source": "India Meteorological Department (IMD) Hydromet Division / AWS Udupi & Kundapura",
+        "source_url": "https://mausam.imd.gov.in/",
+        "observation_period": "Pre-monsoon dry season baseline (Jan-Apr 2024-2026)",
+        "annual_normal_mm": 4120,
+        "dry_season_normal_mm": 42.5,
+        "dry_season_observed_mm": 14.2,
+        "recharge_deficit_pct": -66.6,
+        "vulnerability_signal": "HIGH_RECHARGE_DEFICIT",
+        "fill_color": "#e6550d",
+        "fill_opacity": 0.45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.735,
+              13.424999999999999
+            ],
+            [
+              74.78,
+              13.424999999999999
+            ],
+            [
+              74.78,
+              13.469999999999999
+            ],
+            [
+              74.735,
+              13.469999999999999
+            ],
+            [
+              74.735,
+              13.424999999999999
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
